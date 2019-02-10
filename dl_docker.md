@@ -9,7 +9,7 @@ srun --gres=gpu:1 --time=1:00:00 --partition=debug --pty bash -l
 
 2.Pull pre-bulid image from dockerhub
 ```shell
-singularity pull docker://lightaime/dl-all:gpu-cuda9.0-cudnn7-ubuntu16.04
+singularity pull docker://lightaime/dl-all:gpu-cuda9.2-cudnn7-ubuntu16.04
 ```
 
 3.Run docker container follow the instructions at 1.
