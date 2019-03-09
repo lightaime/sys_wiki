@@ -8,3 +8,7 @@ conda create --name tf_gpu tensorflow-gpu
 ```shell
 conda create --name tf_gpu-2.7 tensorflow-gpu python=2.7
 ```
+3.Install tensorflow with python2.7 and cudatoolkit8.0
+```shell
+conda create --name tf_gpu-2.7-cu8.0 tensorflow-gpu python=2.7 cudatoolkit=8.0
+```
