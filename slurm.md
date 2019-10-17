@@ -15,7 +15,7 @@ salloc --gres=gpu:v100:8 --time=300:00:00 --mem 128g  --cpus-per-task=32 --parti
 ```
 
 ```
-srun --gres=gpu:4 --jobid=6647867 --time=298:00:00 --mem 128g --pty bash
+srun --gres=gpu:v100:8 --jobid=6647867 --time=298:00:00 --mem 128g --pty bash
 ```
 
 2. Watch squeue
